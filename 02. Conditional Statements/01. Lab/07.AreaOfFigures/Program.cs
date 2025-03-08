@@ -1,13 +1,13 @@
-﻿//Input
+//Input
 string figure = Console.ReadLine();
 
-//Checks
+//Calculations
 double area = 0;
 
-if (figure == "square" )
+if (figure == "square")
 {
-    double sideLength = double.Parse(Console.ReadLine());
-    area = sideLength * sideLength;
+    double side = double.Parse(Console.ReadLine());
+    area = side * side;
 }
 else if (figure == "rectangle")
 {
@@ -18,17 +18,17 @@ else if (figure == "rectangle")
 }
 else if (figure == "circle")
 {
-    double raius = double.Parse(Console.ReadLine());
+    double radius = double.Parse(Console.ReadLine());
 
-    area = Math.PI * (raius * raius);
+    area = Math.PI * radius * radius;
 }
 else if (figure == "triangle")
 {
-    double sideLength = double.Parse(Console.ReadLine());
+    double side = double.Parse(Console.ReadLine());
     double height = double.Parse(Console.ReadLine());
 
-    area = sideLength * height / 2;
+    area = side * height / 2;
 }
 
 //Output
-Console.WriteLine($"{area:f2}");
+Console.WriteLine($"{area:F3}");
