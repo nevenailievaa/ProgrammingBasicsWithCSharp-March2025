@@ -1,4 +1,4 @@
-﻿//Input
+//Input
 string city = Console.ReadLine();
 double sales = double.Parse(Console.ReadLine());
 double comission = 0;
@@ -14,8 +14,6 @@ if (city == "Sofia")
         comission = 0.07;
     else if (sales >= 0)
         comission = 0.05;
-    else
-        Console.WriteLine("error");
 }
 else if (city == "Varna")
 {
