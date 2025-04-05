@@ -1,5 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-
 //Input
 int startNum = int.Parse(Console.ReadLine());
 int endNum = int.Parse(Console.ReadLine());
