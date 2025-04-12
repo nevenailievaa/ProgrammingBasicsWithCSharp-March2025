@@ -6,7 +6,6 @@ int daysCount = int.Parse(Console.ReadLine());
 
 //Calculations
 double sum = 0;
-double price = 0;
 
 if (destination == "Dubai")
 {
